@@ -71,6 +71,7 @@ h3{
 }
 .menu_link a{
     color: white;
+    cursor: pointer;
 }
 .img_logo{
     width: 150px;
