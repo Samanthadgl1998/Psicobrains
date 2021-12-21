@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-size: 16px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: #142F43;
+}
+h3{
+    color: #22577E;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* margin: 10px auto; */
+    /* background: gainsboro; */
+    border: 1px solid ;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    /* margin:  auto 5px; */
+    /* background: gray; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* border: 1px solid ; */
+    /* margin-left: 60px; */
+}
+.informacion{
+    width: 80%;
+    height: 30px;
+    /* background: green; */
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    color: #22577E;
+}
+.infor_contac a{
+    color: #22577E;
+}
+
+/* menu de navegacion */
+
+.menu{
+    /* display: flex; */
+    width: 70%;
+    height: 50px;
+    background: #84DFFF;
+    border-radius: 20px;
+    position: fixed;
+    top: 50px;
+    z-index: 1;
+    position: relative;
+    /* overflow: hidden; */
+}
+.menu_nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.menu_link {
+    list-style: none;
+    text-decoration: none;
+    color: cornsilk;
+    text-transform: uppercase;
+
+}
+.menu_link a{
+    color: white;
+}
+.img_logo{
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+
+}
+/* portada */
+
+.portada{
+    width: 100%;
+    height: 100vh;
+    background-color: chartreuse;
+    background: url(img/opi-yolanda_1.jpg_1057082476.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+.heading_portada{
+    color: cornsilk;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.portada_inf{
+    color: cornsilk;
+}
+
+/* ------------------------ */
+.proyecto{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.proyecto_item{
+    border: 5px solid #84DFFF;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    vertical-align: inherit;
+    vertical-align:30% 70% 56% 44% / 31% 34% 66% 69%;
+}
+.proyecto_item h2{
+    color: #22577E;
+    padding-bottom: 30px;
+}
+
+
+.btn{
+    background-color: #84DFFF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 40%;
+    
+}
+.bienvenida{
+    display: flex;
+    /* border: 1px solid; */
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+.bien_info{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-right: 50px;
+    flex-flow: column ;
+    /* border: 1px solid; */
+}
+.bien_info h2{
+    color: #22577E;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.bien_info p{
+    padding-top: 10px;
+}
+.item_bien{
+    margin-left: 20px;
+}
+.img_bie{
+    border-radius: 50%;
+    width: 300px;
+}
+.linea{
+    width: 80%;
+    height: 2px;
+    margin: auto;
+    background-color: orange;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    padding: 5px;
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.heading_ser{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    color: #22577E;
+    font-size: 30px;
+}
+.item_servicio{
+    /* border: 1px solid orange; */
+    display: flex;
+    padding: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon_servi{
+    background-color: #84DFFF;
+    color: whitesmoke;
+    /* border: 1px solid #F14A16; */
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 50px;
+    width: 100PX;
+    height: 70%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    padding: 5px;
+}
+/* actividades */
+.actividades{
+    /* border: 1px solid orange;
+     */
+    margin:  50px auto;
+    width: 80%;
+}
+.actividades h2{
+    font-size: 40px;
+    color: #22577E;
+    margin-bottom: 30px;
+}
+.item_actividades{
+    /* border: 1px solid orange; */
+    margin: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+.item_act{
+    /* margin: 5px; */
+    padding: 20px;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+.item_act p{
+    color:#22577E; 
+    font-weight: bold;
+}
+.img_act{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 8px solid #84DFFF;
+    margin-bottom: 20px;
+}
+
+/* -----------------------opiniones */
+
+.opiniones{
+    /* margin-top: 50px; */
+    width: 80%;
+
+    margin: 50px auto;
+    /* display: flex; */
+}
+/* .opiniones h1{
+    color: border: 8px solid #84DFFF;
+} */
+.opiniones h1{
+    color: #009DAE;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.opini{
+    display: flex;
+    color: whitesmoke;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.opi{
+    width: 45%;
+    margin: auto;
+    background-color: #009DAE;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+.opi p{
+    color: whitesmoke;
+    /* margin: 20px; */
+}
+.opi h2{
+    margin-top: 20px;
+}
+.contactos{
+    width: 80%;
+    margin: auto;
+    
+}
+.contactos h1{
+    color: #009DAE;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cont_info{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.direccion{
+    /* background-color: wheat; */
+    width: 35%;
+    
+
+}
+.direc_item{
+    /* background-color: turquoise; */
+    padding: 15px;
+    color: #009DAE;
+}
+.direc_item p{
+    color: #009DAE;
+}
+.mensaje{
+    /* background-color: violet; */
+    width:65%;
+    color: #009DAE;
+}
+.mensaje_item input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid #84DFFF;
+    
+}
+.mensaje_item{
+    padding:15px;
+}
+.mensaje_item textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #84DFFF;
+}
+
+.footer{
+    width: 80%;
+    margin:50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+    
+}
+.footer p{
+    color: #009DAE;
+    padding: 10px;
+}
